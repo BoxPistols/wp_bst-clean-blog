@@ -4,7 +4,7 @@
 <meta name="description" content="" />
 <meta name="author" content="" />
 
-<title>Clean Blog - Start Bootstrap Theme</title>
+<title>TheNo Blog</title>
 
 <!-- Bootstrap core CSS -->
 
