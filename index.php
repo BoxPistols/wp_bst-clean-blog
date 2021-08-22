@@ -15,12 +15,12 @@
         <!-- Bootstrap core CSS -->
 
         <link
-            href="http://theno.local/wp-content/themes/startbootstrap-clean-blog-5.0.10/vendor/bootstrap/css/bootstrap.min.css"
+            href="http://theno.local/wp-content/themes/bst-clean-blog/vendor/bootstrap/css/bootstrap.min.css"
             rel="stylesheet"
             />
         <!-- Custom fonts for this template -->
         <link
-            href="http://theno.local/wp-content/themes/startbootstrap-clean-blog-5.0.10/vendor/fontawesome-free/css/all.min.css"
+            href="http://theno.local/wp-content/themes/bst-clean-blog/vendor/fontawesome-free/css/all.min.css"
             rel="stylesheet"
             type="text/css"
             />
@@ -37,7 +37,7 @@
 
         <!-- Custom styles for this template -->
         <link
-            href="http://theno.local/wp-content/themes/startbootstrap-clean-blog-5.0.10/css/clean-blog.min.css"
+            href="http://theno.local/wp-content/themes/bst-clean-blog/css/clean-blog.min.css"
             rel="stylesheet"
             />
 
@@ -224,9 +224,9 @@
 
                                         <!-- Bootstrap core JavaScript -->
                                         <script
-                                            src="http://theno.local/wp-content/themes/startbootstrap-clean-blog-5.0.10/vendor/jquery/jquery.min.js"></script>
+                                            src="http://theno.local/wp-content/themes/bst-clean-blog/vendor/jquery/jquery.min.js"></script>
                                         <script
-                                            src="http://theno.local/wp-content/themes/startbootstrap-clean-blog-5.0.10/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+                                            src="http://theno.local/wp-content/themes/bst-clean-blog/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
                                         <!-- Custom scripts for this template -->
                                         <script src="js/clean-blog.min.js"></script>
                                         <?php wp_footer();?>
