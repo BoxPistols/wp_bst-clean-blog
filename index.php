@@ -47,8 +47,10 @@
         <body>
             <!-- Navigation -->
             <!-- TODO: rm style -->
-            <nav class="navbar navbar-expand-lg navbar-light fixed-top"
-                id="mainNav" style="padding-top: 2vh">
+            <nav
+                class="navbar navbar-expand-lg navbar-light fixed-top"
+                id="mainNav"
+                style="padding-top: 2vh">
                 <div class="container">
                     <a class="navbar-brand" href="index.html">Start Bootstrap</a>
                     <button
@@ -120,111 +122,113 @@
                                         <p class="post-meta">
                                             Posted by
                                             <a href="#">Start Bootstrap</a>
-                                            on September 24, 2019
-                                        </p>
-                                    </div>
-                                    <hr />
-                                    <?php endwhile;?>
-
-                                        <!-- Pager -->
-                                        <div class="clearfix">
-                                            <a
-                                                class="btn btn-primary
-                                                float-right"
-                                                href="#">Older Posts &rarr;</a>
+                                            on
+                                            <?php the_time(" Y m d" );?>
+                                                <!--  <?php the_date();?> -->
+                                            </p>
                                         </div>
+                                        <hr />
+                                        <?php endwhile;?>
 
-                                        <?php else: ?>
-                                            <p>記事が見つかりませんでし</p>
-                                            <?php endif;?>
+                                            <!-- Pager -->
+                                            <div class="clearfix">
+                                                <a
+                                                    class="btn btn-primary
+                                                    float-right"
+                                                    href="#">Older Posts &rarr;</a>
                                             </div>
-                                        </div>
-                                    </div>
-                                    <hr />
 
-                                    <!-- Footer -->
-                                    <footer>
-                                        <div class="container">
-                                            <div class="row">
-                                                <div
-                                                    class="col-lg-8
-                                                    col-md-10 mx-auto">
-                                                    <ul
-                                                        class="list-inline
-                                                        text-center">
-                                                        <li
-                                                            class="list-inline-item">
-                                                            <a href="#">
-                                                                <span
-                                                                    class="fa-stack
-                                                                    fa-lg">
-                                                                    <i
-                                                                        class="fas
-                                                                        fa-circle
-                                                                        fa-stack-2x"></i>
-                                                                    <i
-                                                                        class="fab
-                                                                        fa-twitter
-                                                                        fa-stack-1x
-                                                                        fa-inverse"></i>
-                                                                </span>
-                                                            </a>
-                                                        </li>
-                                                        <li
-                                                            class="list-inline-item">
-                                                            <a href="#">
-                                                                <span
-                                                                    class="fa-stack
-                                                                    fa-lg">
-                                                                    <i
-                                                                        class="fas
-                                                                        fa-circle
-                                                                        fa-stack-2x"></i>
-                                                                    <i
-                                                                        class="fab
-                                                                        fa-facebook-f
-                                                                        fa-stack-1x
-                                                                        fa-inverse"></i>
-                                                                </span>
-                                                            </a>
-                                                        </li>
-                                                        <li
-                                                            class="list-inline-item">
-                                                            <a href="#">
-                                                                <span
-                                                                    class="fa-stack
-                                                                    fa-lg">
-                                                                    <i
-                                                                        class="fas
-                                                                        fa-circle
-                                                                        fa-stack-2x"></i>
-                                                                    <i
-                                                                        class="fab
-                                                                        fa-github
-                                                                        fa-stack-1x
-                                                                        fa-inverse"></i>
-                                                                </span>
-                                                            </a>
-                                                        </li>
-                                                    </ul>
-                                                    <p
-                                                        class="copyright
-                                                        text-muted">
-                                                        Copyright &copy; Your
-                                                        Website 2020
-                                                    </p>
+                                            <?php else: ?>
+                                                <p>記事が見つかりませんでし</p>
+                                                <?php endif;?>
                                                 </div>
                                             </div>
                                         </div>
-                                    </footer>
+                                        <hr />
 
-                                    <!-- Bootstrap core JavaScript -->
-                                    <script
-                                        src="http://theno.local/wp-content/themes/startbootstrap-clean-blog-5.0.10/vendor/jquery/jquery.min.js"></script>
-                                    <script
-                                        src="http://theno.local/wp-content/themes/startbootstrap-clean-blog-5.0.10/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-                                    <!-- Custom scripts for this template -->
-                                    <script src="js/clean-blog.min.js"></script>
-                                    <?php wp_footer();?>
-                                    </body>
-                                </html>
+                                        <!-- Footer -->
+                                        <footer>
+                                            <div class="container">
+                                                <div class="row">
+                                                    <div
+                                                        class="col-lg-8
+                                                        col-md-10 mx-auto">
+                                                        <ul
+                                                            class="list-inline
+                                                            text-center">
+                                                            <li
+                                                                class="list-inline-item">
+                                                                <a href="#">
+                                                                    <span
+                                                                        class="fa-stack
+                                                                        fa-lg">
+                                                                        <i
+                                                                            class="fas
+                                                                            fa-circle
+                                                                            fa-stack-2x"></i>
+                                                                        <i
+                                                                            class="fab
+                                                                            fa-twitter
+                                                                            fa-stack-1x
+                                                                            fa-inverse"></i>
+                                                                    </span>
+                                                                </a>
+                                                            </li>
+                                                            <li
+                                                                class="list-inline-item">
+                                                                <a href="#">
+                                                                    <span
+                                                                        class="fa-stack
+                                                                        fa-lg">
+                                                                        <i
+                                                                            class="fas
+                                                                            fa-circle
+                                                                            fa-stack-2x"></i>
+                                                                        <i
+                                                                            class="fab
+                                                                            fa-facebook-f
+                                                                            fa-stack-1x
+                                                                            fa-inverse"></i>
+                                                                    </span>
+                                                                </a>
+                                                            </li>
+                                                            <li
+                                                                class="list-inline-item">
+                                                                <a href="#">
+                                                                    <span
+                                                                        class="fa-stack
+                                                                        fa-lg">
+                                                                        <i
+                                                                            class="fas
+                                                                            fa-circle
+                                                                            fa-stack-2x"></i>
+                                                                        <i
+                                                                            class="fab
+                                                                            fa-github
+                                                                            fa-stack-1x
+                                                                            fa-inverse"></i>
+                                                                    </span>
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                        <p
+                                                            class="copyright
+                                                            text-muted">
+                                                            Copyright &copy;
+                                                            Your Website 2020
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </footer>
+
+                                        <!-- Bootstrap core JavaScript -->
+                                        <script
+                                            src="http://theno.local/wp-content/themes/startbootstrap-clean-blog-5.0.10/vendor/jquery/jquery.min.js"></script>
+                                        <script
+                                            src="http://theno.local/wp-content/themes/startbootstrap-clean-blog-5.0.10/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+                                        <!-- Custom scripts for this template -->
+                                        <script src="js/clean-blog.min.js"></script>
+                                        <?php wp_footer();?>
+                                        </body>
+                                    </html>
