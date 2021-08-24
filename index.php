@@ -2,7 +2,7 @@
 <html lang="ja">
 
     <head>
-        <?php get_header( ) ?>
+        <?php get_header() ?>
     </head>
 
     <body>
@@ -94,15 +94,8 @@
         </div>
         <hr />
 
-        <?php get_footer(  ) ?>
+        <?php get_footer() ?>
 
-        <!-- Bootstrap core JavaScript -->
-        <script src="http://theno.local/wp-content/themes/bst-clean-blog/vendor/jquery/jquery.min.js"></script>
-        <script src="http://theno.local/wp-content/themes/bst-clean-blog/vendor/bootstrap/js/bootstrap.bundle.min.js">
-        </script>
-        <!-- Custom scripts for this template -->
-        <script src="js/clean-blog.min.js"></script>
-        <?php wp_footer(); ?>
     </body>
 
 </html>
