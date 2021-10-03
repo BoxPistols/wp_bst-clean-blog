@@ -1,0 +1,10 @@
+{
+  "javascript.format.placeOpenBraceOnNewLineForControlBlocks": true,
+  "javascript.format.placeOpenBraceOnNewLineForFunctions": true,
+  "intelephense.completion.maxItems": 80,
+  "intelephense.files.associations": [
+
+    "*.php",
+    "*.phtml"
+  ]
+}
