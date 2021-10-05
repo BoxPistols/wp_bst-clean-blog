@@ -51,6 +51,8 @@
   <hr />
 
   <?php get_footer() ?>
+  <?php get_template_part("includes/inc_footer") ?>
+
 </body>
 
 </html>
