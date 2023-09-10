@@ -1,0 +1,31 @@
+// Path: clean-blog/scss/bootstrap-overrides.scss
+@import "../scss/_variables.scss";
+@import "../scss/_mixins.scss";
+@import "../scss/_global.scss";
+@import "../scss/_navbar.scss";
+@import "../scss/_masthead.scss";
+@import "../scss/_post.scss";
+@import "../scss/_contact.scss";
+@import "../scss/_footer.scss";
+@import "../scss/_bootstrap-overrides.scss";
+
+// original
+$navbar-color: #2c3e50;
+$navbar-brand-color: #ecf0f1;
+
+#global-nav {  
+  background-color: $navbar-color;
+
+  .navbar-brand {
+    color: $navbar-brand-color;
+    font-weight: bold;
+  }
+
+  .nav-item {
+    a.nav-link {
+      color: $navbar-brand-color;
+      font-weight: bold;
+      font-size: 1rem;
+    }
+  }
+}
