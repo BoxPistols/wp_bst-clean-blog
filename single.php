@@ -14,7 +14,7 @@
       <!-- Page Header -->
       <?php
       if (has_post_thumbnail()) :
-        $id = get_post_thumbnail_id();51
+        $id = get_post_thumbnail_id();
         // var_dump($id); /* 画像番号 */
         $img = wp_get_attachment_image_src($id, "large"); // or Media Number
       // var_dump($img)
