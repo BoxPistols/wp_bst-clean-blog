@@ -6,5 +6,10 @@
 
     "*.php",
     "*.phtml"
-  ]
+  ],
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#1A1E7F",
+    "titleBar.activeBackground": "#242AB1",
+    "titleBar.activeForeground": "#FBFBFE"
+  }
 }
