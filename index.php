@@ -19,19 +19,21 @@
           <?php while (have_posts()) : the_post(); ?>
             <div class="post-preview">
               <a href="<?php the_permalink(); ?>">
+
                 <h2 class="post-title">
                   <?php the_title(); ?>
                 </h2>
                 <h3 class="post-subtitle">
                   <?php the_excerpt() ?>
                 </h3>
+                <?php the_post_thumbnail(array(120, 240),  array('alt' => 'アイキャッチ画像')); ?>
               </a>
               <p class="post-meta">
                 Posted by
                 <?php the_author(); ?>
                 on
                 <?php the_time(get_option('date_format')); ?>
-                <!--  <?php the_date(); ?> -->
+                <!-- <?php the_date(); ?> -->
               </p>
             </div>
             <hr />
